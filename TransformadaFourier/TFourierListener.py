@@ -179,6 +179,24 @@ class TFourierListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by TFourierParser#Potencia.
+    def enterPotencia(self, ctx:TFourierParser.PotenciaContext):
+        pass
+
+    # Exit a parse tree produced by TFourierParser#Potencia.
+    def exitPotencia(self, ctx:TFourierParser.PotenciaContext):
+        pass
+
+
+    # Enter a parse tree produced by TFourierParser#Exp.
+    def enterExp(self, ctx:TFourierParser.ExpContext):
+        pass
+
+    # Exit a parse tree produced by TFourierParser#Exp.
+    def exitExp(self, ctx:TFourierParser.ExpContext):
+        pass
+
+
     # Enter a parse tree produced by TFourierParser#Boolean.
     def enterBoolean(self, ctx:TFourierParser.BooleanContext):
         pass

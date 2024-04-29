@@ -104,6 +104,16 @@ class TFourierVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by TFourierParser#Potencia.
+    def visitPotencia(self, ctx:TFourierParser.PotenciaContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by TFourierParser#Exp.
+    def visitExp(self, ctx:TFourierParser.ExpContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by TFourierParser#Boolean.
     def visitBoolean(self, ctx:TFourierParser.BooleanContext):
         return self.visitChildren(ctx)

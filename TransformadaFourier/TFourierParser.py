@@ -10,36 +10,39 @@ else:
 
 def serializedATN():
     return [
-        4,1,24,88,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,1,0,4,0,10,8,0,11,0,12,
+        4,1,26,96,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,1,0,4,0,10,8,0,11,0,12,
         0,11,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,23,8,1,1,2,1,2,1,2,
         1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
         1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
-        1,2,1,2,1,2,3,2,63,8,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,5,
-        2,75,8,2,10,2,12,2,78,9,2,1,3,1,3,1,3,5,3,83,8,3,10,3,12,3,86,9,
-        3,1,3,0,1,4,4,0,2,4,6,0,2,2,0,10,10,12,12,2,0,11,11,13,13,104,0,
-        9,1,0,0,0,2,22,1,0,0,0,4,62,1,0,0,0,6,79,1,0,0,0,8,10,3,2,1,0,9,
-        8,1,0,0,0,10,11,1,0,0,0,11,9,1,0,0,0,11,12,1,0,0,0,12,1,1,0,0,0,
-        13,14,3,4,2,0,14,15,5,23,0,0,15,23,1,0,0,0,16,17,5,20,0,0,17,18,
-        5,1,0,0,18,19,3,4,2,0,19,20,5,23,0,0,20,23,1,0,0,0,21,23,5,23,0,
-        0,22,13,1,0,0,0,22,16,1,0,0,0,22,21,1,0,0,0,23,3,1,0,0,0,24,25,6,
-        2,-1,0,25,26,5,2,0,0,26,27,3,4,2,0,27,28,5,3,0,0,28,63,1,0,0,0,29,
-        63,5,21,0,0,30,63,5,22,0,0,31,63,5,4,0,0,32,33,5,15,0,0,33,34,5,
-        2,0,0,34,35,3,4,2,0,35,36,5,3,0,0,36,63,1,0,0,0,37,38,5,16,0,0,38,
-        39,5,2,0,0,39,40,3,4,2,0,40,41,5,3,0,0,41,63,1,0,0,0,42,43,5,17,
-        0,0,43,44,5,2,0,0,44,45,3,4,2,0,45,46,5,3,0,0,46,63,1,0,0,0,47,48,
-        5,18,0,0,48,49,5,2,0,0,49,50,3,6,3,0,50,51,5,3,0,0,51,63,1,0,0,0,
-        52,63,5,14,0,0,53,54,5,19,0,0,54,63,3,4,2,7,55,63,5,20,0,0,56,57,
-        5,7,0,0,57,63,3,4,2,3,58,59,5,8,0,0,59,63,3,4,2,2,60,61,5,9,0,0,
-        61,63,3,4,2,1,62,24,1,0,0,0,62,29,1,0,0,0,62,30,1,0,0,0,62,31,1,
-        0,0,0,62,32,1,0,0,0,62,37,1,0,0,0,62,42,1,0,0,0,62,47,1,0,0,0,62,
-        52,1,0,0,0,62,53,1,0,0,0,62,55,1,0,0,0,62,56,1,0,0,0,62,58,1,0,0,
-        0,62,60,1,0,0,0,63,76,1,0,0,0,64,65,10,17,0,0,65,66,7,0,0,0,66,75,
-        3,4,2,18,67,68,10,16,0,0,68,69,7,1,0,0,69,75,3,4,2,17,70,71,10,5,
-        0,0,71,75,5,5,0,0,72,73,10,4,0,0,73,75,5,6,0,0,74,64,1,0,0,0,74,
-        67,1,0,0,0,74,70,1,0,0,0,74,72,1,0,0,0,75,78,1,0,0,0,76,74,1,0,0,
-        0,76,77,1,0,0,0,77,5,1,0,0,0,78,76,1,0,0,0,79,84,3,4,2,0,80,81,5,
-        9,0,0,81,83,3,4,2,0,82,80,1,0,0,0,83,86,1,0,0,0,84,82,1,0,0,0,84,
-        85,1,0,0,0,85,7,1,0,0,0,86,84,1,0,0,0,6,11,22,62,74,76,84
+        1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,3,2,68,8,2,1,2,1,2,1,2,1,2,1,2,1,
+        2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,5,2,83,8,2,10,2,12,2,86,9,2,1,3,1,
+        3,1,3,5,3,91,8,3,10,3,12,3,94,9,3,1,3,0,1,4,4,0,2,4,6,0,2,2,0,11,
+        11,13,13,2,0,12,12,14,14,114,0,9,1,0,0,0,2,22,1,0,0,0,4,67,1,0,0,
+        0,6,87,1,0,0,0,8,10,3,2,1,0,9,8,1,0,0,0,10,11,1,0,0,0,11,9,1,0,0,
+        0,11,12,1,0,0,0,12,1,1,0,0,0,13,14,3,4,2,0,14,15,5,25,0,0,15,23,
+        1,0,0,0,16,17,5,22,0,0,17,18,5,1,0,0,18,19,3,4,2,0,19,20,5,25,0,
+        0,20,23,1,0,0,0,21,23,5,25,0,0,22,13,1,0,0,0,22,16,1,0,0,0,22,21,
+        1,0,0,0,23,3,1,0,0,0,24,25,6,2,-1,0,25,26,5,2,0,0,26,27,3,4,2,0,
+        27,28,5,3,0,0,28,68,1,0,0,0,29,68,5,23,0,0,30,68,5,24,0,0,31,68,
+        5,4,0,0,32,33,5,16,0,0,33,34,5,2,0,0,34,35,3,4,2,0,35,36,5,3,0,0,
+        36,68,1,0,0,0,37,38,5,17,0,0,38,39,5,2,0,0,39,40,3,4,2,0,40,41,5,
+        3,0,0,41,68,1,0,0,0,42,43,5,18,0,0,43,44,5,2,0,0,44,45,3,4,2,0,45,
+        46,5,3,0,0,46,68,1,0,0,0,47,48,5,19,0,0,48,49,5,2,0,0,49,50,3,4,
+        2,0,50,51,5,3,0,0,51,68,1,0,0,0,52,53,5,20,0,0,53,54,5,2,0,0,54,
+        55,3,6,3,0,55,56,5,3,0,0,56,68,1,0,0,0,57,68,5,15,0,0,58,59,5,21,
+        0,0,59,68,3,4,2,7,60,68,5,22,0,0,61,62,5,8,0,0,62,68,3,4,2,3,63,
+        64,5,9,0,0,64,68,3,4,2,2,65,66,5,10,0,0,66,68,3,4,2,1,67,24,1,0,
+        0,0,67,29,1,0,0,0,67,30,1,0,0,0,67,31,1,0,0,0,67,32,1,0,0,0,67,37,
+        1,0,0,0,67,42,1,0,0,0,67,47,1,0,0,0,67,52,1,0,0,0,67,57,1,0,0,0,
+        67,58,1,0,0,0,67,60,1,0,0,0,67,61,1,0,0,0,67,63,1,0,0,0,67,65,1,
+        0,0,0,68,84,1,0,0,0,69,70,10,19,0,0,70,71,7,0,0,0,71,83,3,4,2,20,
+        72,73,10,18,0,0,73,74,7,1,0,0,74,83,3,4,2,19,75,76,10,10,0,0,76,
+        77,5,5,0,0,77,83,3,4,2,11,78,79,10,5,0,0,79,83,5,6,0,0,80,81,10,
+        4,0,0,81,83,5,7,0,0,82,69,1,0,0,0,82,72,1,0,0,0,82,75,1,0,0,0,82,
+        78,1,0,0,0,82,80,1,0,0,0,83,86,1,0,0,0,84,82,1,0,0,0,84,85,1,0,0,
+        0,85,5,1,0,0,0,86,84,1,0,0,0,87,92,3,4,2,0,88,89,5,10,0,0,89,91,
+        3,4,2,0,90,88,1,0,0,0,91,94,1,0,0,0,92,90,1,0,0,0,92,93,1,0,0,0,
+        93,7,1,0,0,0,94,92,1,0,0,0,6,11,22,67,82,84,92
     ]
 
 class TFourierParser ( Parser ):
@@ -52,15 +55,17 @@ class TFourierParser ( Parser ):
 
     sharedContextCache = PredictionContextCache()
 
-    literalNames = [ "<INVALID>", "'='", "'('", "')'", "'pi'", "'++'", "'--'", 
-                     "'-'", "'+'", "','", "' * '", "' + '", "' / '", "' - '", 
-                     "<INVALID>", "'Sin'", "'Cos'", "'Tan'", "'F'", "'!'" ]
+    literalNames = [ "<INVALID>", "'='", "'('", "')'", "'pi'", "' ^ '", 
+                     "'++'", "'--'", "'-'", "'+'", "','", "' * '", "' + '", 
+                     "' / '", "' - '", "<INVALID>", "'Sin'", "'Cos'", "'Tan'", 
+                     "'Exp'", "'F'", "'!'" ]
 
     symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "MUL", "ADD", "DIV", "SUB", 
-                      "BOOLEAN", "SIN", "COS", "TAN", "F", "BOOL_NEG", "ID", 
-                      "INT", "FLOAT", "NEWLINE", "WS" ]
+                      "<INVALID>", "<INVALID>", "<INVALID>", "MUL", "ADD", 
+                      "DIV", "SUB", "BOOLEAN", "SIN", "COS", "TAN", "EXP", 
+                      "F", "BOOL_NEG", "ID", "INT", "FLOAT", "NEWLINE", 
+                      "WS" ]
 
     RULE_prog = 0
     RULE_stat = 1
@@ -79,21 +84,23 @@ class TFourierParser ( Parser ):
     T__6=7
     T__7=8
     T__8=9
-    MUL=10
-    ADD=11
-    DIV=12
-    SUB=13
-    BOOLEAN=14
-    SIN=15
-    COS=16
-    TAN=17
-    F=18
-    BOOL_NEG=19
-    ID=20
-    INT=21
-    FLOAT=22
-    NEWLINE=23
-    WS=24
+    T__9=10
+    MUL=11
+    ADD=12
+    DIV=13
+    SUB=14
+    BOOLEAN=15
+    SIN=16
+    COS=17
+    TAN=18
+    EXP=19
+    F=20
+    BOOL_NEG=21
+    ID=22
+    INT=23
+    FLOAT=24
+    NEWLINE=25
+    WS=26
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -154,7 +161,7 @@ class TFourierParser ( Parser ):
                 self.state = 11 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 16761748) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 67077908) != 0)):
                     break
 
         except RecognitionException as re:
@@ -722,6 +729,61 @@ class TFourierParser ( Parser ):
                 return visitor.visitChildren(self)
 
 
+    class PotenciaContext(ExprContext):
+
+        def __init__(self, parser, ctx:ParserRuleContext): # actually a TFourierParser.ExprContext
+            super().__init__(parser)
+            self.copyFrom(ctx)
+
+        def expr(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(TFourierParser.ExprContext)
+            else:
+                return self.getTypedRuleContext(TFourierParser.ExprContext,i)
+
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterPotencia" ):
+                listener.enterPotencia(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitPotencia" ):
+                listener.exitPotencia(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitPotencia" ):
+                return visitor.visitPotencia(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+    class ExpContext(ExprContext):
+
+        def __init__(self, parser, ctx:ParserRuleContext): # actually a TFourierParser.ExprContext
+            super().__init__(parser)
+            self.copyFrom(ctx)
+
+        def EXP(self):
+            return self.getToken(TFourierParser.EXP, 0)
+        def expr(self):
+            return self.getTypedRuleContext(TFourierParser.ExprContext,0)
+
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterExp" ):
+                listener.enterExp(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitExp" ):
+                listener.exitExp(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitExp" ):
+                return visitor.visitExp(self)
+            else:
+                return visitor.visitChildren(self)
+
+
     class BooleanContext(ExprContext):
 
         def __init__(self, parser, ctx:ParserRuleContext): # actually a TFourierParser.ExprContext
@@ -807,7 +869,7 @@ class TFourierParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 62
+            self.state = 67
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [2]:
@@ -822,14 +884,14 @@ class TFourierParser ( Parser ):
                 self.state = 27
                 self.match(TFourierParser.T__2)
                 pass
-            elif token in [21]:
+            elif token in [23]:
                 localctx = TFourierParser.IntContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
                 self.state = 29
                 self.match(TFourierParser.INT)
                 pass
-            elif token in [22]:
+            elif token in [24]:
                 localctx = TFourierParser.FloatContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
@@ -843,7 +905,7 @@ class TFourierParser ( Parser ):
                 self.state = 31
                 self.match(TFourierParser.T__3)
                 pass
-            elif token in [15]:
+            elif token in [16]:
                 localctx = TFourierParser.SinContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
@@ -856,7 +918,7 @@ class TFourierParser ( Parser ):
                 self.state = 35
                 self.match(TFourierParser.T__2)
                 pass
-            elif token in [16]:
+            elif token in [17]:
                 localctx = TFourierParser.CosContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
@@ -869,7 +931,7 @@ class TFourierParser ( Parser ):
                 self.state = 40
                 self.match(TFourierParser.T__2)
                 pass
-            elif token in [17]:
+            elif token in [18]:
                 localctx = TFourierParser.TanContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
@@ -882,74 +944,87 @@ class TFourierParser ( Parser ):
                 self.state = 45
                 self.match(TFourierParser.T__2)
                 pass
-            elif token in [18]:
-                localctx = TFourierParser.FourierTransformContext(self, localctx)
+            elif token in [19]:
+                localctx = TFourierParser.ExpContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
                 self.state = 47
-                self.match(TFourierParser.F)
+                self.match(TFourierParser.EXP)
                 self.state = 48
                 self.match(TFourierParser.T__1)
                 self.state = 49
-                self.arglist()
+                self.expr(0)
                 self.state = 50
                 self.match(TFourierParser.T__2)
                 pass
-            elif token in [14]:
-                localctx = TFourierParser.BooleanContext(self, localctx)
+            elif token in [20]:
+                localctx = TFourierParser.FourierTransformContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
                 self.state = 52
+                self.match(TFourierParser.F)
+                self.state = 53
+                self.match(TFourierParser.T__1)
+                self.state = 54
+                self.arglist()
+                self.state = 55
+                self.match(TFourierParser.T__2)
+                pass
+            elif token in [15]:
+                localctx = TFourierParser.BooleanContext(self, localctx)
+                self._ctx = localctx
+                _prevctx = localctx
+                self.state = 57
                 self.match(TFourierParser.BOOLEAN)
                 pass
-            elif token in [19]:
+            elif token in [21]:
                 localctx = TFourierParser.BoolNegacionContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 53
+                self.state = 58
                 self.match(TFourierParser.BOOL_NEG)
-                self.state = 54
+                self.state = 59
                 self.expr(7)
                 pass
-            elif token in [20]:
+            elif token in [22]:
                 localctx = TFourierParser.IdContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 55
+                self.state = 60
                 self.match(TFourierParser.ID)
                 pass
-            elif token in [7]:
+            elif token in [8]:
                 localctx = TFourierParser.NegativoContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 56
-                self.match(TFourierParser.T__6)
-                self.state = 57
+                self.state = 61
+                self.match(TFourierParser.T__7)
+                self.state = 62
                 self.expr(3)
                 pass
-            elif token in [8]:
+            elif token in [9]:
                 localctx = TFourierParser.PositivoContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 58
-                self.match(TFourierParser.T__7)
-                self.state = 59
+                self.state = 63
+                self.match(TFourierParser.T__8)
+                self.state = 64
                 self.expr(2)
                 pass
-            elif token in [9]:
+            elif token in [10]:
                 localctx = TFourierParser.ListaContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 60
-                self.match(TFourierParser.T__8)
-                self.state = 61
+                self.state = 65
+                self.match(TFourierParser.T__9)
+                self.state = 66
                 self.expr(1)
                 pass
             else:
                 raise NoViableAltException(self)
 
             self._ctx.stop = self._input.LT(-1)
-            self.state = 76
+            self.state = 84
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,4,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
@@ -957,36 +1032,17 @@ class TFourierParser ( Parser ):
                     if self._parseListeners is not None:
                         self.triggerExitRuleEvent()
                     _prevctx = localctx
-                    self.state = 74
+                    self.state = 82
                     self._errHandler.sync(self)
                     la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
                     if la_ == 1:
                         localctx = TFourierParser.MulDivContext(self, TFourierParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 64
-                        if not self.precpred(self._ctx, 17):
+                        self.state = 69
+                        if not self.precpred(self._ctx, 19):
                             from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 17)")
-                        self.state = 65
-                        localctx.op = self._input.LT(1)
-                        _la = self._input.LA(1)
-                        if not(_la==10 or _la==12):
-                            localctx.op = self._errHandler.recoverInline(self)
-                        else:
-                            self._errHandler.reportMatch(self)
-                            self.consume()
-                        self.state = 66
-                        self.expr(18)
-                        pass
-
-                    elif la_ == 2:
-                        localctx = TFourierParser.AddSubContext(self, TFourierParser.ExprContext(self, _parentctx, _parentState))
-                        self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 67
-                        if not self.precpred(self._ctx, 16):
-                            from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 16)")
-                        self.state = 68
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 19)")
+                        self.state = 70
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
                         if not(_la==11 or _la==13):
@@ -994,34 +1050,66 @@ class TFourierParser ( Parser ):
                         else:
                             self._errHandler.reportMatch(self)
                             self.consume()
-                        self.state = 69
-                        self.expr(17)
+                        self.state = 71
+                        self.expr(20)
+                        pass
+
+                    elif la_ == 2:
+                        localctx = TFourierParser.AddSubContext(self, TFourierParser.ExprContext(self, _parentctx, _parentState))
+                        self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
+                        self.state = 72
+                        if not self.precpred(self._ctx, 18):
+                            from antlr4.error.Errors import FailedPredicateException
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 18)")
+                        self.state = 73
+                        localctx.op = self._input.LT(1)
+                        _la = self._input.LA(1)
+                        if not(_la==12 or _la==14):
+                            localctx.op = self._errHandler.recoverInline(self)
+                        else:
+                            self._errHandler.reportMatch(self)
+                            self.consume()
+                        self.state = 74
+                        self.expr(19)
                         pass
 
                     elif la_ == 3:
-                        localctx = TFourierParser.IncrementoContext(self, TFourierParser.ExprContext(self, _parentctx, _parentState))
+                        localctx = TFourierParser.PotenciaContext(self, TFourierParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 70
-                        if not self.precpred(self._ctx, 5):
+                        self.state = 75
+                        if not self.precpred(self._ctx, 10):
                             from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 5)")
-                        self.state = 71
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 10)")
+                        self.state = 76
                         self.match(TFourierParser.T__4)
+                        self.state = 77
+                        self.expr(11)
                         pass
 
                     elif la_ == 4:
-                        localctx = TFourierParser.DecrementoContext(self, TFourierParser.ExprContext(self, _parentctx, _parentState))
+                        localctx = TFourierParser.IncrementoContext(self, TFourierParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 72
-                        if not self.precpred(self._ctx, 4):
+                        self.state = 78
+                        if not self.precpred(self._ctx, 5):
                             from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 4)")
-                        self.state = 73
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 5)")
+                        self.state = 79
                         self.match(TFourierParser.T__5)
                         pass
 
+                    elif la_ == 5:
+                        localctx = TFourierParser.DecrementoContext(self, TFourierParser.ExprContext(self, _parentctx, _parentState))
+                        self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
+                        self.state = 80
+                        if not self.precpred(self._ctx, 4):
+                            from antlr4.error.Errors import FailedPredicateException
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 4)")
+                        self.state = 81
+                        self.match(TFourierParser.T__6)
+                        pass
+
              
-                self.state = 78
+                self.state = 86
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,4,self._ctx)
 
@@ -1075,17 +1163,17 @@ class TFourierParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 79
+            self.state = 87
             self.expr(0)
-            self.state = 84
+            self.state = 92
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==9:
-                self.state = 80
-                self.match(TFourierParser.T__8)
-                self.state = 81
+            while _la==10:
+                self.state = 88
+                self.match(TFourierParser.T__9)
+                self.state = 89
                 self.expr(0)
-                self.state = 86
+                self.state = 94
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1111,18 +1199,22 @@ class TFourierParser ( Parser ):
 
     def expr_sempred(self, localctx:ExprContext, predIndex:int):
             if predIndex == 0:
-                return self.precpred(self._ctx, 17)
+                return self.precpred(self._ctx, 19)
          
 
             if predIndex == 1:
-                return self.precpred(self._ctx, 16)
+                return self.precpred(self._ctx, 18)
          
 
             if predIndex == 2:
-                return self.precpred(self._ctx, 5)
+                return self.precpred(self._ctx, 10)
          
 
             if predIndex == 3:
+                return self.precpred(self._ctx, 5)
+         
+
+            if predIndex == 4:
                 return self.precpred(self._ctx, 4)
          
 

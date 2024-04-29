@@ -81,6 +81,15 @@ class FourierTransformVisitor(TFourierVisitor):
     def visitBoolNegacion(self, ctx):
         value = self.visit(ctx.expr())
         return not bool(value)
+    
+    def visitPotencia(self, ctx):
+        base = self.visit(ctx.expr(0))
+        exponente = self.visit(ctx.expr(1))
+        return base ** exponente
+    
+    def visitExp(self, ctx):
+        argumento = self.visit(ctx.expr())
+        return math.exp(argumento)
 
     def visitFourierTransform(self, ctx):
         print("Visitando la función F")
@@ -101,8 +110,15 @@ class FourierTransformVisitor(TFourierVisitor):
                         expr = expr.replace('Cos(' + cos_expr + ')', str(sp.cos(t_sym))) 
                     elif 'Tan(' in expr:  
                         tan_expr = expr[expr.find('(')+1:expr.find(')')]  
-                        expr = expr.replace('Tan(' + tan_expr + ')', str(sp.tan(t_sym)))  
+                        expr = expr.replace('Tan(' + tan_expr + ')', str(sp.tan(t_sym))) 
+                    elif 'Exp(' in expr:  
+                        exp_expr = expr[expr.find('(')+1:expr.find(')')] 
+                        expr = expr.replace('Exp(' + exp_expr + ')', str(sp.exp((exp_expr))))
+                    elif ' ^ ' in expr:  
+                        base, power = expr.split(' ^ ') 
+                        expr = expr.replace(base + ' ^ ' + power, str(float(base) ** float(power)))  
                     evaluated_args.append(sp.sympify(expr).subs({'t': t_val}).evalf())
+                    
             return evaluated_args
 
         t = np.linspace(0, 100, 1000)

@@ -17,6 +17,8 @@ expr: '(' expr ')'                   #parens
     | SIN '(' expr ')'               #Sin
     | COS '(' expr ')'               #Cos
     | TAN '(' expr ')'               #Tan
+    | EXP '(' expr ')'               #Exp
+    | expr ' ^ ' expr                  #Potencia
     | F '(' arglist ')'              # FourierTransform
     | BOOLEAN                        #Boolean
     | BOOL_NEG expr                  #BoolNegacion
@@ -37,6 +39,7 @@ BOOLEAN : 'true' | 'false';
 SIN: 'Sin';
 COS: 'Cos';
 TAN: 'Tan';
+EXP: 'Exp';
 F: 'F';
 BOOL_NEG : '!';
 ID     :  [a-zA-Z]+;
