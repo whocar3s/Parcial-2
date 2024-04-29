@@ -1,14 +1,12 @@
 # Parcial 2
 
 ## 1. Diseñe una gramática para un lenguaje de programación que pueda hacer operaciones con números complejos. 
-- Ejemplo: (2 + 7 i ) + (3 –4 i )  = 5 + 3.
+- Ejemplo: (2 + 7 i ) + (3 – 4 i )  = 5 + 3.
 - Implemente en ANTLR. Lenguaje objetivo Python.
 
     ### Solución:
 
-    [READ.ME]() 
-
-    [Carperta]()
+    [nombre de la carperta]()
 
 ## 2. Diseñe una gramática para un lenguaje de programación que realice las siguientes funciones:
 - Aplicar una función sobre los ítems de un objeto iterable (lista, tupla, etc...)
@@ -19,18 +17,15 @@
     - Implemente en ANTLR. Lenguaje objetivo Python
 
     ### Solución:
-    [READ.ME]() 
 
-    [Carperta]()
+    [Funciones Iteradores](https://github.com/whocar3s/Parcial-2/tree/ab904bf2f69a877a1e9d0c1e46f1cab0560d5ffc/FuncionesIteradores)
 
 ## 3. Diseñe una gramática para un lenguaje de programación que calcule la transformada de Fourier. 
 - Realice   las   consideraciones   necesarias   para   la definición de la parte léxica y sintáctica.
 - Implemente en ANTLR. Lenguaje Objetivo Python
 
     ### Solución:
-    [READ.ME]() 
-
-    [Carperta]()
+    [Transformada de Fourier]()
 
 ## Miembros del grupo
 

@@ -1,9 +1,10 @@
 # **Metodo MAP y Metodo FILTER**
 **Requisitos:** Para ejecutar este proyecto se debe tener instalado Antlr v4.13 y Python3.
 
-1. Clonar el repositorio 'enlace del github'
+1. Clonar el repositorio con `git clone https://github.com/whocar3s/Parcial-2.git`
 
-2. Desde la consola acceder a la ruta donde se clono el proyecto
+
+2. Desde la consola acceder a la ruta donde se clono el proyecto y a la carpeta `cd FuncionesIteradores`
 
 3. Compilar el proyecto con el comando antlr4 -visitor -Dlanguage=Python3 nombredelarchivo.g4
 
