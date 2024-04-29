@@ -10,3 +10,40 @@
 4. Ejecutar el `test_fourier.py` con el comando `python3 test_fourier.py` y escribir la operación a calcular
 
 ## **Pruebas**
+- Funciones trigonométricas simples:
+    ```
+    F(Sin(t))
+    ```
+    - Consola:
+
+    <img src="./src/image.png" alt="gramatica1" width="500"/>
+
+    - Grafica:
+
+    <img src="./src/Figure_1.png" alt="gramatica1" width="500"/>
+
+- Funciones Exponenciales:
+    ```
+    F(Exp(t))
+    ```
+    - Consola:
+
+    <img src="./src/image copy.png" alt="gramatica1" width="500"/>
+
+    - Grafica:
+
+    <img src="./src/Figure_2.png" alt="gramatica1" width="500"/>
+
+- Operaciones matemáticas básicas: 
+    ```
+    F(t * 3)
+    ```
+
+    - Consola:
+
+    <img src="./src/image copy 2.png" alt="gramatica1" width="500"/>
+
+    - Grafica:
+
+    <img src="./src/Figure_3.png" alt="gramatica1" width="500"/>
+
