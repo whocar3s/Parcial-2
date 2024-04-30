@@ -1,4 +1,4 @@
-# **Calculadora de números complejos*
+# **Calculadora de números complejos**
 **Requisitos:** Para ejecutar este proyecto se debe tener instalado Antlr v4.13 y Python3.
 
 1. Clonar el repositorio con `git clone https://github.com/whocar3s/Parcial-2.git`
@@ -10,3 +10,11 @@
 4. Ejecutar el `Test.py` con el comando `python3 Test.py` y escribir la operación a calcular
 
 ## **Pruebas**
+
+```
+    (2 + 7i) + (3 - 4i)
+```
+    
+  - Consola:
+
+    <img src="./src/PruebaCalc.png" alt="gramatica1" width="500"/>
