@@ -6,7 +6,7 @@
 
     ### Solución:
 
-    [nombre de la carperta]()
+    [Calculadora de complejos](https://github.com/whocar3s/Parcial-2/tree/22d89d63590fc6aaf3c33f6b0749eb13e7bfeaf0/ComplexCalc)
 
 ## 2. Diseñe una gramática para un lenguaje de programación que realice las siguientes funciones:
 - Aplicar una función sobre los ítems de un objeto iterable (lista, tupla, etc...)
@@ -18,7 +18,7 @@
 
     ### Solución:
 
-    [Funciones Iteradores](https://github.com/whocar3s/Parcial-2/tree/ab904bf2f69a877a1e9d0c1e46f1cab0560d5ffc/FuncionesIteradores)
+    [Funciones Map y Filter](https://github.com/whocar3s/Parcial-2/tree/22d89d63590fc6aaf3c33f6b0749eb13e7bfeaf0/FuncionMapFilter)
 
 ## 3. Diseñe una gramática para un lenguaje de programación que calcule la transformada de Fourier. 
 - Realice   las   consideraciones   necesarias   para   la definición de la parte léxica y sintáctica.
